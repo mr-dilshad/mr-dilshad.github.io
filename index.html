@@ -9,6 +9,7 @@
       margin: 0;
       padding: 0;
     }
+
     .container {
       max-width: 800px;
       margin: 0 auto;
@@ -16,14 +17,17 @@
       background-color: white;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     }
+
     h1 {
       color: #333;
-      text-align: center
+      text-align: center;
     }
+
     h2 {
       color: #333;
-      text-align: center
+      text-align: center;
     }
+
     h3 {
       color: #666;
       text-align: center;
@@ -31,205 +35,197 @@
       margin: 10px;
       padding: 5px;
     }
+
     h4 {
-    margin: 0px; /* Remove top and bottom margin */
-    padding: 0; /* Remove padding */
-    line-height: 1; /* Adjust line-height to control vertical height */
+      margin: 0px;
+      padding: 0;
+      line-height: 1;
     }
+
     .background-section {
       padding: 15px;
-      background-color: #9b9494; /* Set the background color */
+      background-color: #9b9494;
     }
+
     p {
       color: #555;
       margin: 5px 0;
     }
+
     #headercontainer ul {
       margin: 0;
       padding: 0;
       list-style-type: none;
       text-align: center;
     }
+
     #headercontainer ul li {
       display: inline;
-      margin-right: 10px; /* Add spacing between list items */
+      margin-right: 10px;
+    }
+
+    a:link, a:visited {
+      color: #0000EE; /* Default hyperlink color */
+      text-decoration: none;
+    }
+
+    a:hover, a:active {
+      color: #551A8B; /* Color when hovered or active */
+      text-decoration: underline;
     }
 
     table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  th, td {
-    padding: 8px;
-    margin:15px;
-    text-align: left;
-    vertical-align: top;
-    padding-top: 10px;
-  }
-  th:first-child {
-        width: 25%;
-  }
-  th {
-    font-weight: normal; /* Set font-weight to normal for <th> elements */
-  }
-  .center-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th:first-child {
+      width: 25%;
+    }
+
+    th {
+      font-weight: normal;
+    }
+
     .button-container {
-  display: flex;
-  justify-content: flex-end; /* Adjust alignment as needed */
-  align-items: center; /* Center vertically within the div */
-}
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
   </style>
-  </head>
+</head>
 <body>
-<div class=container id="resume">
-  <div class="background-section">
-  <h1>Mohammad Dilshad</h1>
-  <h2>Software Developer</h2>
-
-  <div id="headercontainer">
-  <ul>
-    <li>Email: contact.dmohammad@gmail.com</li>
-    <li>Phone: +91-8999784575</li>
-  </ul>
-    <div class="button-container">
-      <a href="assets/resume.pdf" download="Resume_MohammadDilshad.pdf">
-      <button id="downloadButton">Download Resume</button>
-      </a>
+  <div class="container" id="resume">
+    <div class="background-section">
+      <h1>Mohammad Dilshad</h1>
+      <h2>Software Developer</h2>
+      <div id="headercontainer">
+        <ul>
+          <li>Email: contact.dmohammad@gmail.com</li>
+          <li>Phone: +91-8999784575</li>
+        </ul>
+        <div class="button-container">
+          <a href="assets/resume.pdf" download="Resume_MohammadDilshad.pdf">
+            <button id="downloadButton">Download Resume</button>
+          </a>
+        </div>
+        <ul>
+          <li><a href="https://github.com/mr-dilshad" target="_blank">GitHub</a></li>
+          <li><a href="https://www.hackerrank.com/mohammaddilshad1?hr_r=1" target="_blank">HackerRank</a></li>
+          <li><a href="https://www.kaggle.com/mohammaddilshad" target="_blank">Kaggle</a></li>
+          <li><a href="https://www.linkedin.com/in/mohammad-dilshad-461644140/" target="_blank">LinkedIn</a></li>
+        </ul>
+      </div>
     </div>
-  <ul>
-    <li><a href="https://github.com/mr-dilshad" target="_blank">GitHub</a></li>
-    <li><a href="https://www.hackerrank.com/mohammaddilshad1?hr_r=1" target="_blank">HackerRank</a></li>
-    <li><a href="https://www.kaggle.com/mohammaddilshad" target="_blank">Kaggle</a></li>
-    <li><a href="https://www.linkedin.com/in/mohammad-dilshad-461644140/" target="_blank">LinkedIn</a></li>
-  </ul>
+
+    <h3>Education</h3>
+    <table>
+      <tr>
+        <th>08/2015 &ndash; 07/2019<br>New Delhi, India</th>
+        <th><h4>B.Tech, Electronics and Communications Engineering</h4><br>Jamia Millia Islamia<br>CGPA: <b>7.04/10</b></th>
+      </tr>
+      <tr>
+        <th>07/2015<br>Rishikesh, India</th>
+        <th><h4>ISC</h4><br>Rishikesh Public School<br>Marks percentage:<b>92%</b></th>
+      </tr>
+      <tr>
+        <th>07/2013<br>Rishikesh, India</th>
+        <th><h4>CISCE</h4><br>Rishikesh Public School<br>Marks percentage: <b>89%</b></th>
+      </tr>
+    </table>
+
+    <h3>Professional Experience</h3>
+    <table>
+      <tr>
+        <th>08/2022 &ndash; 07/2023<br>Chennai, India</th>
+        <th><h4>Application Developer</h4><br>Paypal (CW)
+          <ul>
+            <li>Spearheading the re-architecture of legacy payments applications, enhancing system capabilities and future-proofing the software infrastructure.</li>
+            <li>Responsible for the management of high-traffic endpoints, which account for 70% of PayPal's global payments traffic, emphasizing performance, availability, and security.</li>
+            <li>Mentored junior developers, aiding in their professional growth and improving overall team efficiency.</li>
+            <li>Managed client relationships, consistently receiving positive feedback for clear communication and problem-solving.</li>
+            <li>Conducted interviews for potential new hires, contributing to team expansion and talent acquisition.</li>
+          </ul>
+        </th>
+      </tr>
+      <tr>
+        <th>04/2021 &ndash; 09/2022</th>
+        <th><h4>Java Software Developer</h4><br>Tata Consultancy Services
+          <ul>
+            <li>Played a key role in developing and maintaining the primary service of a major e-commerce application, responsible for managing and distributing all data to downstream applications.</li>
+            <li>This critical service was instrumental in streamlining operations and ensuring optimal efficiency for warehouse staff.</li>
+            <li>Worked closely with cross-functional teams to identify potential enhancements, leading to increased system reliability and performance.</li>
+            <li>Regularly analyzed system performance data to identify potential issues and devise solutions, ensuring system stability and minimizing downtime.</li>
+          </ul>
+        </th>
+      </tr>
+      <tr>
+        <th>06/2019 &ndash; 03/2021</th>
+        <th><h4>Flutter Developer</h4><br>Freelancing
+          <ul>
+            <li>Developed mobile applications utilizing the Flutter framework, demonstrating proficiency in Dart programming language.</li>
+            <li>Designed and implemented custom UI components, enhancing user experience across multiple projects.</li>
+            <li>Leveraged Flutter's widget catalog extensively to create intuitive applications for both iOS and Android platforms.</li>
+          </ul>
+        </th>
+      </tr>
+      <tr>
+        <th>07/2020 &ndash; 11/2020<br>Gurgaon, India</th>
+        <th><h4>Associate Analyst, Content Engineering</h4><br>GlobalLogic
+          <ul>
+            <li>Conducted research on key areas including visual object recognition, tracking, self-localization, and 3D reconstruction.</li>
+            <li>Applied advanced machine learning and computer vision algorithms to enhance visual object recognition and tracking capabilities.</li>
+          </ul>
+        </th>
+      </tr>
+    </table>
+
+    <h3>Scholastic Achievements</h3>
+    <table>
+      <tr>
+        <th>04/2021</th>
+        <th><h4>Certification and Courses</h4><br>Working on <b>Certified Kubernetes Application Developer.</b></th>
+      </tr>
+    </table>
+
+    <h3>Projects</h3>
+    <table>
+      <tr>
+        <th>05/2022 &ndash; present</th>
+        <th><h4>E-commerce Microservice</h4><br>
+          A microservice made using domain-driven design architecture, saga & outbox design patterns.<br><br>
+          <h4>Notifications service</h4><br>A multimodule microservice for sending real-time notifications using Kafka and WebSockets.
+        </th>
+      </tr>
+      <tr>
+        <th>12/2020 &ndash; 01/2021</th>
+        <th><h4>Chat App</h4><br>A simple chat app with push notification feature.</th>
+      </tr>
+      <tr>
+        <th>02/2020</th>
+        <th><h4>Chiggi</h4><br>E-commerce mobile application for Android and iOS.</th>
+      </tr>
+    </table>
+
+    <h3>Professional Skills</h3>
+    <h4>Software/Technologies/Toolkits</h4>
+    <ul>
+      <li><b>Frontend</b>: Flutter, Angular.js, React.js</li>
+      <li><b>Backend Frameworks</b>: SpringBoot, Spring Cloud, Spring Security, Spring Webflux</li>
+      <li><b>Languages</b>: Java, TypeScript, Python, Dart, C, Scala</li>
+      <li><b>Cloud related</b>: ARM Templates, Kubernetes, Helm charts, CI/CD using Azure DevOps, Docker, AWS</li>
+      <li><b>Scripting languages</b>: Bash, PowerShell</li>
+      <li><b>Version control</b>: Git</li>
+      <li><b>Databases</b>: SQL, MongoDB, Redis, Cassandra, GraphQL, PLSQL</li>
+      <li><b>Messaging queue</b>: Kafka, RabbitMQ</li>
+      <li><b>Others</b>: Multithreading, Memory Management, Caching Framework, Machine Learning, NLP</li>
+    </ul>
   </div>
-  </div>
-
-
-  <h3>Education</h3>
-  <table>
-    <tr>
-      <th>08/2015 &ndash; 07/2019<br>New Delhi, India</th>
-      <th><h4>B.Tech, Electronics and Communications Engineering</h4><br>Jamia Millia Islamia<br>CGPA: <b>7.04/10</b></th>
-    </tr>
-    <tr>
-      <th>07/2015<br>Rishikesh, India</th>
-      <th><h4>ISC</h4><br>Rishikesh Public School<br>Marks percentage:<b>92%</b></th>
-    </tr>
-    <tr>
-      <th>07/2013<br>Rishikesh, India</th>
-      <th><h4>CISCE</h4><br>Rishikesh Public School<br>Marks percentage: <b>89%</b></th>
-    </tr>
-  </table>
-
-  <!-- Other education details here -->
-
-  <h3>Professional Experience</h3>
-  <table>
-    <tr>
-      <th>08/2022 &ndash; 07/2023<br>Chennai, India</th>
-      <th><h4>Application Developer</h4><br>Paypal (CW)
-        <ul>
-          <li>Spearheading the re-architecture of legacy payments applications, enhancing system capabilities and future-proofing the software infrastructure.</li>
-          <li>Responsible for the management of high-traffic endpoints, which account for 70% of PayPal's global payments traffic, emphasizing on performance, availability, and security.</li>
-          <li>Mentored junior developers, aiding in their professional growth and improving overall team efficiency.</li>
-          <li>Managed client relationships, consistently receiving positive feedback for clear communication and problem-solving.</li>
-          <li>Conducted interviews for potential new hires, contributing to team expansion and talent acquisition.</li>
-          <!-- Other experience details here -->
-        </ul>
-      </th>
-    </tr>
-    <tr>
-      <th>04/2021 &ndash; 09/2022</th>
-      <th><h4>Java Software Developer</h4><br>Tata Consultancy Services
-        <ul>
-          <li>Played a key role in developing and maintaining the primary service of a major e-commerce application, responsible for managing and distributing all data to downstream applications.</li>
-          <li>This critical service was instrumental in streamlining operations and ensuring optimal efficiency for warehouse staff, contributing significantly to overall operational performance.</li>
-          <li>Worked closely with cross-functional teams to identify potential enhancements, leading to increased system reliability and performance.</li>
-          <li>Regularly analyzed system performance data to identify potential issues and devise solutions, ensuring system stability and minimizing downtime.</li>
-          <!-- Other experience details here -->
-        </ul>
-      </th>
-    </tr>
-    <tr>
-      <th>06/2019 &ndash; 03/2021</th>
-      <th><h4>Flutter Developer</h4><br>Freelancing
-        <ul>
-          <li>Developed a range of mobile applications utilizing the Flutter framework, demonstrating proficiency in Dart programming language.</li>
-          <li>Designed and implemented custom UI components, animations, and widgets, enhancing user experience and interface functionality across multiple projects.</li>
-          <li>Leveraged Flutter's widget catalog extensively to create intuitive and responsive applications optimized for both iOS and Android platforms.</li>
-          <li>Collaborated closely with design and product teams to understand user requirements and translate them into effective mobile solutions.</li>
-          <!-- Other experience details here -->
-        </ul>
-      </th>
-    </tr>
-    <tr>
-      <th>07/2020 &ndash; 11/2020<br>Gurgaon, India</th>
-      <th><h4>Associate Analyst, Content Engineering</h4><br>GlobalLogic
-        <ul>
-          <li>Conducted extensive research on key areas including visual object recognition, tracking, self-localization, 3D reconstruction, and combinations of these topics in the context of a significant project.</li>
-          <li>Applied advanced machine learning and computer vision algorithms to enhance visual object recognition and tracking capabilities.</li>
-          <li>Utilized methods in self-localization to improve the accuracy and reliability of positioning systems in project applications.</li>
-          <li>Conducted in-depth studies on 3D reconstruction, resulting in more realistic and accurate representations in the project scope.</li>
-          <li>Synthesized findings from these diverse areas, developing innovative solutions and advancing the project objectives.</li>
-          <!-- Other experience details here -->
-        </ul>
-      </th>
-    </tr>
-  </table>
-
-
-  <h3>Scholastic Achievements</h3>
-  <table>
-    <tr>
-      <th>04/2021</th>
-      <th><h4>Certification and Courses</h4><br>Working on <b>Certified Kubernetes Application Developer.</b>
-      </th>
-    </tr>
-  </table>
-
-  <h3>Projects</h3>
-  <table>
-    <tr>
-      <th>05/2022 &ndash; present</th>
-      <th><h4>E-commerce Microservice</h4><br>
-        It is a microservice made using domain driven design architechture, saga & outbox design pattern..<br><br>
-        <h4>Notifications service</h4><br>A multimodule microservice for sending real time notifications.
-        It is a springboot project to implement push notifications using kafka and websockets.
-      </th>
-    </tr>
-    <tr>
-      <th>12/2020 &ndash; 01/2021</th>
-      <th><h4>Chat App</h4><br>a simple chat app with push notification feature
-      </th>
-    </tr>
-    <tr>
-      <th>02/2020</th>
-      <th><h4>Chiggi</h4><br>E - Commerce mobile application for Android and IO
-      </th>
-    </tr>
-  </table>
-  <!-- Other project details here -->
-
-  <h3>Professional Skills</h3>
-  <h4>Software/Technologies/Toolkits</h4>
-  <ul>
-    <li><b>Frontend</b>: Flutter, Angular.js, React.js</li>
-    <li><b>Backend Frameworks</b>: SpringBoot, Spring Cloud, Spring Security, Spring Webflux</li>
-    <li><b>Languages</b>: Java, typescript, Python, Dart and C, Scala</li>
-    <li><b>Cloud related</b>: ARM Templates, Kubernetes, Helm charts, CI/CD using Azure devops, Docker, AWS</li>
-    <li><b>Scripting languages</b>: bash, powershell</li>
-    <li><b>Version control</b>: Git</li>
-    <li><b>Databases</b>: SQL, Mongo, Graph DB, Redis, Cassandra, GraphQL, PLSQL</li>
-    <li><b>Messaging queue</b>: Kafka, RabbitMQ</li>
-    <li><b>Others</b>: Multithreading, Memory Management, Caching Framework, Machine Learning, NLP, Java REST API Integration Testing</li>
-    <!-- Other skills here -->
-  </ul>
-<!--  <button id="generate-pdf">Generate PDF</button>-->
-</div>
 </body>
 </html>
